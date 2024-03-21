@@ -1,0 +1,387 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(252, 233, 236);
+
+}
+
+.container ul  
+{
+    
+    
+    font-size: large;
+    margin: 20px;
+    padding: 0px;
+    color:rgb(218, 214, 214); 
+    display:flex;
+
+    /* line-height: 10px; */
+    align-items: center;
+    
+    
+}
+contact
+{
+    justify-content: center;
+    line-height: 50px;
+    left:990px;
+}
+
+.container
+{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: black;
+    color: white;
+    height: 50px;
+
+}
+.footer
+{
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    
+
+}
+
+.btn
+{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height:40px;
+    background-color: rgba(0, 0, 0, 0.911);
+    color:white;
+}
+
+.btn2
+{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 110px;
+    height:50px;
+    background-color: rgba(0, 0, 0, 0.911);
+    color:white;
+}
+
+.btn3
+{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 130px;
+    height:50px;
+    background-color: rgba(0, 0, 0, 0.911);
+    color:white;
+}
+.btn4
+{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 130px;
+    height:50px;
+    background-color: rgba(0, 0, 0, 0.911);
+    color:white;
+}
+.ans
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 500px) {
+    .container ul {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        margin: 10px 0; /* Reduce margin */
+        font-size: medium; /* Adjust font size */
+        line-height: 30px; /* Adjust line height */
+    }
+
+    .container {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        justify-content: center; /* Center content vertically */
+        height: auto; /* Reset height */
+        padding: 10px; /* Add padding */
+    }
+
+    .footer {
+        position: static; /* Remove fixed positioning */
+    }
+
+    .btn,
+    .btn2,
+    .btn3,
+    .btn4 {
+        width: 100%; /* Make buttons full width */
+        margin-bottom: 10px; /* Add margin between buttons */
+    }
+
+    .ans {
+        padding: 0 10px; /* Add padding */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* Other styles for smaller screens */
+
+    /* Center all items within the <nav> element */
+    nav {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .helloo .allclear
+    {
+        position: absolute;
+        top:15%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+.powerArea
+{
+    margin: 10px;
+    padding: 10px;
+    width:170px;
+}
+.speedArea
+{
+    margin: 10px;
+    padding: 10px;
+    width:190px;
+}
+text{margin:10px
+}
+.MOImotor
+{
+    margin: 10px;
+    padding: 10px;
+}
+.MOImachine
+{
+    position:absolute;
+    margin: 10px;
+    padding: 10px;
+    left:5.5%;
+    top: 92%;
+    
+}
+.MOIload
+{
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    top: 230px;
+    left:69px;
+}
+text1
+{
+    
+    position: absolute;
+    font-size:small;
+    top:190px;
+    left:10px;
+}
+text2
+{
+    position: absolute;
+    font-size:large;
+    top:250px;
+    left:10px;
+}
+.omega2
+{
+    position: absolute;
+    left:320px;
+
+}
+text3
+{
+    position: absolute;
+    left:288px;
+}
+.timestamp1
+{
+    position: absolute;
+
+    margin: 20px;
+    left:23.6%
+}
+t1
+{
+    position: absolute;
+    left:290px;
+    top:110%
+}
+.timestamp2
+{
+    position: absolute;
+
+    margin: 20px;
+    left:23.6%;
+    top:120%;
+}
+t2
+{
+    position: absolute;
+    left:290px;
+    top:130%
+}
+
+.btn2
+{
+    position: absolute;
+    left:580px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    top:90%;
+
+}
+.rpmconverter
+{
+    position: absolute;
+    top:300px;
+    left:70px;
+    margin:10px;
+    padding: 10px;
+}
+stext
+{
+    position: absolute;
+    top:320px;
+    left:4px;
+
+}
+.btn3
+{
+    position: absolute;
+    top:305px;
+    left:306px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+}
+.radius
+{
+    position: absolute;
+    top:370px;
+    left:70px;
+    margin:10px;
+    padding: 10px;
+}
+rtext
+{
+    position: absolute;
+    top:390px;
+    left:10px;
+
+}
+.btn4
+{
+    position: absolute;
+    top:400px;
+    left:315px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+}
+.rpmconverter2
+{
+    position: absolute;
+    top:440px;
+    left:70px;
+    margin:10px;
+    padding: 10px;
+}
+s2text
+{
+    position: absolute;
+    top:460px;
+    left:5px;
+
+}
+.instruct
+{
+    position: absolute;
+    top:400px;
+
+    left:450px;
+    color: red;
+}
+.design1
+{
+    position: absolute;
+    left:270px;
+    top:273px;
+    font-size:120px;
+}
+.design2
+{
+    position: absolute;
+    left:500px;
+    top:-32px;
+    font-size:170px;
+}
+.boxes
+{
+    position: absolute;
+    background-color: black;
+    left:750px;
+    top:55px;
+    width:10px;
+    height:500px;
+    
+    
+}
+.boxes box 
+{
+    border: 10px solid white;
+
+}
+.image
+{
+    position: absolute;
+    width:500px;
+    height:500px;
+    left:830px;
+    top:50px;
+    
+
+} */

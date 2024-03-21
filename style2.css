@@ -1,0 +1,221 @@
+.powercontainer
+{
+    display:flex;
+    gap:10px;
+    margin:10px;
+    align-items: center;
+}
+.interiacontainer
+{
+    display:flex;
+    gap:10px;
+    /* margin:10px; */
+    margin:1px;
+    align-items: center;
+
+}
+.interiacontainer .cont1
+{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin:10px;
+    align-items: center;
+}
+.interiacontainer .cont1 .jm
+{
+    display: flex;
+    gap:10px;
+    width:100%;
+    justify-content: space-between;
+    
+}
+.interiacontainer .cont1 .jmc
+{
+    display: flex;
+    gap:10px;
+    width:100%;
+    justify-content: space-between;
+}
+.interiacontainer .cont1 .jml
+{
+    display: flex;
+    gap:10px;
+    width:100%;
+    justify-content: space-between;
+}
+.interiacontainer .cont2
+{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    margin:10px;
+    align-items: center;
+}
+.interiacontainer .cont2 .o1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.interiacontainer .cont2 .o2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.interiacontainer .cont2 .ti1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.interiacontainer .cont2 .ti2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.interiacontainer .cont3
+{
+    display:flex;
+    gap:10px;
+
+    align-items: center;
+    height: 100%;
+}
+.interiacontainer .design
+{
+    font-size: 150px;
+    margin:0;
+    padding: 0;
+    position: relative;
+    top: -15px;
+    
+}
+.speedrpm
+{
+    display: flex;
+    gap:20px;
+    margin:20px 10px;
+    align-items: center;
+
+}
+.speedms
+{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin:20px 10px;
+}
+
+.image
+{
+    position: absolute;
+    right:5%;
+    top:15%;
+    height: 50%;
+
+}
+
+.copyans
+{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border-radius: 10px;
+    height: 40px;
+    width:80px;
+    padding: 5px;
+}
+.clearans
+{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border-radius: 10px;
+    height: 40px;
+    width:80px;
+    padding: 5px;
+}
+.allclear
+{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border-radius: 10px;
+    height: 40px;
+    width:80px;
+    padding: 5px;
+    position: absolute;
+    right:1%;
+    top:10%;
+}
+
+@media screen and (max-width: 500px) {
+    .powercontainer {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        gap: 5px; /* Reduce gap between flex items */
+        margin: 5px; /* Reduce margin */
+    }
+
+    .interiacontainer {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        gap: 5px; /* Reduce gap between flex items */
+        margin: 5px; /* Reduce margin */
+    }
+
+    .interiacontainer .cont1,
+    .interiacontainer .cont2 {
+        margin: 5px; /* Reduce margin */
+    }
+
+    .interiacontainer .cont1 .jm,
+    .interiacontainer .cont1 .jmc,
+    .interiacontainer .cont1 .jml,
+    .interiacontainer .cont2 .o1,
+    .interiacontainer .cont2 .o2,
+    .interiacontainer .cont2 .ti1,
+    .interiacontainer .cont2 .ti2 {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+    }
+
+    .image {
+        display: none; /* Hide image on smaller screens */
+    }
+}
+@media screen and (max-width: 500px) {
+    .speedms {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        gap: 10px; /* Add gap between elements */
+        margin: 20px 0; /* Adjust margin */
+    }
+
+    .speedms .copyans,
+    .speedms .clearans,
+    .speedms .allclear {
+        width: 100%; /* Make buttons full width */
+        margin-bottom: 10px; /* Add margin between buttons */
+    }
+}
+@media screen and (max-width: 500px) {
+    .speedrpm {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        gap: 10px; /* Add gap between elements */
+        margin: 20px 0; /* Adjust margin */
+    }
+
+    .speedrpm .copyans,
+    .speedrpm .clearans
+    {
+        width: 100%; /* Make buttons full width */
+        margin-bottom: 10px; /* Add margin between buttons */
+    }
+}
+@media screen and (max-width: 500px) {
+    /* Other styles for smaller screens */
+
+    /* Hide elements with class 'design' and 'design1' */
+    .design,
+    .design1 {
+        display: none;
+    }
+}
+
